@@ -1,0 +1,36 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=.50in]{geometry}
+\usepackage[backend=biber, style=authoryear-icomp]{biblatex}
+\usepackage[main=portuguese]{babel}
+\usepackage{easylist}
+\usepackage{hanging}
+\usepackage{hyperref}
+\usepackage{blindtext}
+\usepackage{enumerate}
+\usepackage{longtable}
+\addbibresource{ref.bib}
+
+\title{<++>}
+\author{Bruno Braga Montezano}
+
+\pagenumbering{gobble}
+
+\newcommand{\linia}{\rule{\linewidth}{0.5pt}}
+
+\makeatletter
+
+\renewcommand{\maketitle}{\begin{center}
+\huge \@title\end{center}
+\linia\\
+{\large\@author\hfill\@date\\}}
+
+\begin{document}
+
+\maketitle
+
+<++>
+
+\printbibliography
+
+\end{document}
