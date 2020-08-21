@@ -2,7 +2,7 @@
 
 Nesse repositório, eu disponibilizo a quem quiser os meus modelos de trabalhos em LaTeX.
 
-A maior parte desses modelos chamam os mesmos pacotes que eu utilizo de forma mais seguidamente.
+A maior parte desses modelos chamam os mesmos pacotes que eu utilizo de forma mais recorrente. Possuem suporte para escrita em português brasileiro, entre outras coisas.
 
 Atualmente, está contido aqui:
 
